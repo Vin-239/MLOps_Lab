@@ -1,0 +1,22 @@
+{
+    "name": "MLOps Student Lab",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": ".venv/bin/python",
+                "python.terminal.activateEnvInSelectedTerminal": true
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylint",
+                "ms-azuretools.vscode-docker",
+                "iterative.dvc",
+                "GitHub.vscode-pull-request-github"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
